@@ -1,0 +1,151 @@
+.table-btn {
+  display: none;
+}
+
+.table1 div {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.table1 div h5 {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.table1 div h6 {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.table1 div p {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.table1 div .table-btn {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.table1 div {
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  background-color: #FFE4C4;
+  border-radius: 10px;
+}
+
+.table1 div div {
+  margin: auto;
+  height: 100px;
+}
+
+.table1 div:hover div {
+  padding: 0px 10px;
+}
+
+.table1 div:hover div h6 {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  opacity: 0;
+}
+
+.table1 div:hover div h5 {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  opacity: 0;
+}
+
+.table1 div:hover div p {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  opacity: 0;
+}
+
+.table1 div:hover div .table-btn {
+  display: block;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.table1 div:hover div .table-btn:hover {
+  -webkit-transform: translateY(-1);
+          transform: translateY(-1);
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.table1 div:hover .table-btn {
+  display: block;
+  margin: 0px auto;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  -webkit-animation-name: anim4;
+          animation-name: anim4;
+  -webkit-animation-duration: .2s;
+          animation-duration: .2s;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.table1 div:hover .table-btn:hover {
+  -webkit-transform: translateY(-1);
+          transform: translateY(-1);
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+@-webkit-keyframes anim4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+
+@keyframes anim4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+
+.sec-shop2:hover div div div img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sec-shop2:hover div div div h1 {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sec-shop2:hover div div div p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sec-shop2:hover div div div h3 {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=main1.css.map */

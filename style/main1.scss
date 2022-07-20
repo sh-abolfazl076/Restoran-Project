@@ -1,0 +1,149 @@
+$color :#999;
+body{
+    // background-color: $color;
+}
+
+.table-btn{
+    display: none;
+}
+
+.table1{
+    
+    div{
+        // width: 10px;
+        // background-color: red;
+        transition: all .3s;
+        h5{
+            transition: all .3s; 
+        }
+        h6{
+            transition: all .3s; 
+        }
+        p{
+            transition: all .3s; 
+        }
+        .table-btn{
+            transition: all .3s;
+            transform: translateY(-50px);
+        }
+    }
+}
+
+.table1 div{
+	width: 250px;
+	height:350px ;
+	text-align: center;
+	background-color: #FFE4C4;
+	border-radius: 10px;
+	
+}
+.table1 div div{
+	margin: auto;
+    // width: 100px;
+    height: 100px;
+}
+
+.table1{
+    div:hover{
+            
+            // transform: translateY(-10px);
+        div{
+            h6{
+                 transform: translateY(-50px);
+                 opacity: 0;  
+            }
+            h5{
+                transform: translateY(-50px);
+                 opacity: 0; 
+            }
+            p{
+                transform: translateY(-50px);
+                 opacity: 0; 
+            }
+            .table-btn{
+                display: block;
+                // transition: all .2s;
+                // transform: translateY(-50px);
+                // opacity: 0;  
+                margin: 0px auto;
+                padding: 0px 20px;
+            }
+            .table-btn:hover{
+                transform: translateY(-1);
+                background-color: orange;
+                border: 1px solid orange;
+                
+            }
+            // background-color: aqua;
+            padding: 0px 10px;
+            
+            
+            
+            }
+            .table-btn{
+                display: block;
+                margin: 0px auto;
+                transition: all .2s;
+                animation-name: anim4;
+                animation-duration:.2s;
+                animation-delay: .2s;
+                animation-fill-mode: backwards;
+                // transform: translate(-52%,-50%);
+                
+            }
+            .table-btn:hover{
+                transform: translateY(-1);
+                background-color: orange;
+                border: 1px solid orange;
+                
+            }
+            // background-color: aqua;
+
+        
+    }
+
+}
+
+@keyframes anim4{
+    0%{
+        opacity:0;
+        transform: translateY(-10px);
+    }
+    50%{
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-50px);
+        
+    }
+}
+///////
+
+   
+
+.sec-shop2:hover{
+    div{
+        div{
+            div{
+                img{
+                    transform: scale(1.1)
+                }
+            }
+            div{
+                h1{
+                    transform: scale(1.1)
+                }
+                p{
+                    transform: scale(1.1)
+                }
+                h3{
+                    transform: scale(1.1)
+                }
+                // button{
+                //     transform: scale(1.2)
+                // }
+            }
+        }
+    }
+}

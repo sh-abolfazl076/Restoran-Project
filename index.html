@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restoran</title>
+    <link rel="stylesheet" href="style/main1.css" type="text/css">
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    
+    <link rel="title icon" href="img/a1.jpg" type="image/jpg">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CDN CSS -->
+    <!-- <link rel="stylesheet" href="bootstrap-code/bootstrap.min.css"> -->
+
+    <!-- Bootstrap CDN CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <!-- section1 -->
+        <section class="head-sec">
+            <div class="head-sec-t1">
+                <h6>سفارش تلفنی : 021 3456879</h1>
+                <p>از 12 ظهر تا 12 شب</p>
+            </div>
+            <div class="head-sec-t2">
+                <h6>ارسال رایگان</h6>
+                <p>سفارشات بالای ۹۹ هزار تومان</p>
+            </div>
+            <div class="head-sec-t3">
+                <a href="" class="">ورود به حساب</a>
+            </div>
+        </section>
+        <!-- End of section1 -->
+        <!-- navbar -->
+        <nav class="nav-1 navbar navbar-expand-lg ">
+            <ul class="navbar-nav list-unstyled">
+                <li class="nav-item"><a href="" class="nav-link nav-link1">صفحه ی اصلی</a></li>
+                <li class="nav-item"><a href="" class="nav-link nav-link2">منوی غذا</a></li>
+                <li class="nav-item"><a href="" class="nav-link nav-link2">درباره ی ما</a></li>
+                <li class="nav-item"><a href="" class="nav-link nav-link2">تماس با ما</a></li>
+                <li class="nav-item"><a href="" class="nav-link nav-link2">وبلاگ</a></li>
+            </ul>
+            <div class="">
+                <img src="img/logo.png" alt="" class="img-logo">
+            </div>
+            <div class="nav-btn">
+                <input type="text">
+                <button class="">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <section class="nav-sec">
+                <i class="fas fa-shopping-cart fa-lg ml-3"></i>
+                <!-- <span class="">
+                    <span class="">۰</span>
+                </span> -->
+            </section>
+        </nav>
+        <!-- End of navbar -->
+        <!-- banner -->
+        <section class="slider">
+            <!-- // -->
+            <div class="container-fluid item active slides" id="slide1">
+                <div class="row ">
+                    <div class="col-lg-auto head-banner" >
+                        <img id="anim1" src="img/banner1.png" alt="">
+                        <div>
+                            <h1 class="t1">پپرونی</h1>
+                            <h1 class="t2">49 هزار تومان</h1>
+                            <h2 class="t3">همین الان سفارش بده</h2>
+                            <button>مشاهده و خرید</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <!-- // -->
+           <div class="container-fluid item slides" id="slide2">
+                <div class="row ">
+                    <div class="col-lg-auto head-banner" >
+                        <img id="anim1" src="img/banner1.png" alt="">
+                        <div>
+                            <h1 class="t1">پیتزا</h1>
+                            <h1 class="t2">69 هزار تومان</h1>
+                            <h2 class="t3">همین الان سفارش بده</h2>
+                            <button>مشاهده و خرید</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- // -->
+            <div class="container-fluid item slides" id="slide3">
+                <div class="row ">
+                    <div class="col-lg-auto head-banner" >
+                        <img id="anim1" src="img/banner1.png" alt="">
+                        <div>
+                            <h1 class="t1">پیتزا مخصوص</h1>
+                            <h1 class="t2">99 هزار تومان</h1>
+                            <h2 class="t3">همین الان سفارش بده</h2>
+                            <button>مشاهده و خرید</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <!-- // -->
+
+            <!-- btn -->
+            <div class="btn-slides">
+            <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+            <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+            <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+        <!-- End of banner -->
+    </header>
+    <!-- End of header -->
+
+    <!-- main -->
+    <main>
+
+        <!-- main-sec1 -->
+        <section>
+            <div class="container-1">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 main-sec1 anim1 mt-5 text-left">
+                        <h1>چیپس فرانسوی</h1>  
+                        <button>مشاهده منو</button>
+                        <img src="img/hed3.jpg" alt="" id="img1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 main-sec1 anim2 mt-5 text-center">
+                        <h1>نوشیدنی گاز دار</h1>
+                        <button>مشاهده منو</button>
+                        <img src="img/hed5.png" alt="" id="img2">
+                    </div>
+                    <div class="col-lg-4 col-md-12 main-sec1 anim3 mt-5 text-right">
+                        <h1>پیتزا آمریکایی</h1>
+                        <button>مشاهده منو</button>
+                        <img src="img/hed1.png" alt="" id="img3">
+                        <!-- <img src="img/hed3.png" alt="" id="img3"> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of main-sec1 -->
+
+        <!-- cards -->
+        <section>
+            <div class="container-fluid">
+                <!-- //// -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-md-10 cards-sec2-div">
+                        <p>بهترین های فود فکتوری برای شما</p>
+                        <h1>پذیرایی با بهترین غذاها</h1>
+                    </div>
+                </div>
+                <!-- // -->
+                <!-- ul -->
+                <ul class="cards-sec-ul list-inline text-center">
+                    <li class="list-inline-item">
+                        <button  data-filter="all"  class="btn-li gallery-item">همه</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat1" class="btn-li gallery-item">برگر</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat2" class="btn-li gallery-item">پیتزا</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat3" class="btn-li gallery-item">ساندویچ</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat4" class="btn-li gallery-item">ناگت</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat5" class="btn-li gallery-item">سالاد</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat6" class="btn-li gallery-item">پیش غذا</button>
+                    </li>
+                    <li  class="list-inline-item">
+                        <button data-filter="cat7" class="btn-li gallery-item">نوشیدنی</button>
+                    </li>
+                </ul>
+                <!-- End of ul -->
+                <!-- table -->
+                <div class="table1">
+                    <!-- //// -->
+                    <div class="filter cat2 div-table">
+                        <img src="img/m1.png" alt="">
+                        <div class="table-t "id="">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>10000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn "><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat1 div-table">
+                        <img src="img/m2.png" alt="">
+                        <div class="table-t ">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>20000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn"><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat1 div-table">
+                        <img src="img/m3.png" alt="">
+                        <div class="table-t "id="">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>10000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn "><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat4 div-table">
+                        <img src="img/m4.png" alt="">
+                        <div class="table-t ">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>20000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn"><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <!-- //// -->
+                    <div class="filter cat2 div-table">
+                        <img src="img/m5.png" alt="">
+                        <div class="table-t "id="">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>10000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn "><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat6 div-table">
+                        <img src="img/m6.png" alt="">
+                        <div class="table-t ">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>20000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn"><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat5 div-table">
+                        <img src="img/m7.png" alt="">
+                        <div class="table-t "id="">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>10000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn "><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat7 div-table">
+                        <img src="img/m8.png" alt="">
+                        <div class="table-t active">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>20000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn"><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <!-- // -->
+                     <!-- //// -->
+                     <div class="filter cat3 div-table">
+                        <img src="img/m9.png" alt="">
+                        <div class="table-t "id="">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>10000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn "><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat3 div-table">
+                        <img src="img/m10.png" alt="">
+                        <div class="table-t ">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>20000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn"><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat3 div-table">
+                        <img src="img/m11.png" alt="">
+                        <div class="table-t "id="">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>10000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn "><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <div class="filter cat3 div-table">
+                        <img src="img/m5.png" alt="">
+                        <div class="table-t ">
+                            <h5>پیتزا گوشت و قارچ</h5>
+                            <h6>20000 تومان</h6>
+                            <p>خمیر سس مخصوص سرآشپز پنیر گوشت بیف فلفل ...</p>
+                        </div>
+                        <button class="table-btn"><i class="fas fa-wrench"><span>انتخاب گزینه ها</span></i></button>
+                    </div>
+                    <!-- // -->
+                </div>
+            </div>
+        </section>
+        <!-- End of cards -->
+
+        <!-- super shop -->
+        <section class="sec-super-shop ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 sec-super-shop-t">
+                        <img src="img/section_bg2.png" alt="" id="shop-bg" class="sec-super-shop-bg">
+                        <div class="shop-time">
+                            <div class="div-span1">
+                                <span id="sec">40</span>
+                                <span id="min">28</span>
+                                <span id="hors">07</span>
+                            </div>
+                            <div class="div-span2">
+                                <span>ثانیه</span>
+                                <span>دقیقه</span>
+                                <span>ساعت</span>
+                            </div>
+                        </div>
+                        <h1>تخفیف ویژه پیتزا</h1>
+                        <button>مشاهده منو</button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 sec-super-shop-img">
+                        <img src="img/section1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of super shope -->
+        <!-- section shop -->
+        <section class="sec-shop">
+            <div class="container-1">
+                <div class="row">
+                    <div class="col-lg-6 sec-shop-t ">
+                        <h1>بهترین برگرهای شهر </h1>
+                        <p id="p">ما ۱۰۰٪ عشق و فداکاری را در ظرف هایمان می گذاریم.</p>
+                        <p><span style="font-weight: bold;">فودفکتوری</span> در سال هزار و سیصد و هشتاد و نه شروع به کار کرد و با محیطی گرم و خانوادگی و با فضایی زیبا با ظرفیت صد و بیست نفر افتخار پذیرایی از شما عزیزان را دارد و مبتکر اولین ساندویچ بدون نان ( فود چیکن ) و اولین پیتزا بدون خمیر ( فودپیزا ) میباشد و در روزهای پنج شنبه و جمعه نقاشی صورت برای کودکان عزیز رایگان انجام می شود</p>
+                        <p>فودفکتوری آماده پذیرایی از هر گونه جشن ها و مراسم ها می باشد و شما می توانید به صورت تلفنی نیز منوی دلخواهتان را سفارش دهید</p>
+                        <p>جهت راه اندازی فست فود و خرید عمده انواع پودر سوخاری و ادویه روکش سوخاری و انواع سس می توانید با ما تماس حاصل فرمایید</p>
+                        <button>مشاهده منو</button>
+                    </div>
+                    <div class="col-lg-6 sec-shop-img">
+                        <img src="img/sec-shop-img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of section shop -->
+        <!-- section shop2 -->
+        <section class="sec-shop2">
+            <div class="container-1">
+                <div class="row">
+                    <div class="col-lg-6 sec-shop2-img anim8">
+                        <img src="img/sec-shop-img2.png" alt="">
+                    </div>
+                    <div class="col-lg-6 sec-shop2-t">
+                        <h1>این بار سرآشپز شمایید...!</h1>
+                        <p>به مناسبت روز جهانی بــرگــر</p>
+                        <h3 class="" >🍔</h3>
+                        <button class="btn1">مشاهده منو</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of section shop2 -->
+        
+        <!-- section bg -->
+        <section class="sec-bg">
+            <div class="container-1 ">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-3 sec-bg-div1 ">
+                        <i class="fas fa-heart fa-4x"></i>
+                        <h1 id="btn-t1"></h1>
+                        <span>تازه و حلال</span>                        
+                    </div>
+                    <div class="col-lg-3 sec-bg-div1">
+                        <i class="fas fa-users fa-4x"></i>
+                        <h1>50</h1>
+                        <span>سال ها تجربه</span>
+                    </div>
+                    <div class="col-lg-3 sec-bg-div1">
+                        <i class="far fa-clock fa-4x"></i>
+                        <h1>600</h1>
+                        <span>مشتری روزانه</span>
+                    </div>
+                    <div class="col-lg-3 sec-bg-div1">
+                        <i class="far fa-calendar-alt fa-4x"></i>
+                        <h1>1,852</h1>
+                        <span>سفارش موفق</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of section bg -->
+
+        <!-- sec-3 -->
+        <section class="sec-3">
+            <div class="container-1">
+                <div class="row">
+                    <div class="col-lg-6 sec-3-right slider2">
+                        <img src="img/shape.png" alt="">
+                        <!-- // -->
+                        <div class="item  active" id="slid1">
+                            <div class="sec-3-right-t">
+                                <h1>درمورد ما چی میگن! </h1>
+                                <p> ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز </p>
+                                <span>ابوالفضل</span>                       
+                            </div>
+                        </div>
+                        <!-- // -->
+                        <!-- // -->
+                        <div class="item slides" id="slid2">
+                            <div class="sec-3-right-t">
+                                <h1>بهترین ها رو با ما تجربه کنید</h1>
+                                <p> ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز </p>
+                                <span>ابوالفضل</span>                       
+                            </div>
+                        </div>
+                        <!-- // -->
+                         <!-- // -->
+                         <div class="item slides" id="slid3">
+                            <div class="sec-3-right-t">
+                                <h1>با ما در ارتباط باشید</h1>
+                                <p> ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز </p>
+                                <span>ابوالفضل</span>                       
+                            </div>
+                        </div>
+                        <!-- // -->
+                        <!-- btn -->
+                        <div class="btn-slides2">
+                            <i onclick="setSlide2('slid1' , 1)" class="fas fa-circle"></i>
+                            <i onclick="setSlide2('slid2' , 2)" class="fas fa-circle"></i>
+                            <i onclick="setSlide2('slid3' , 3)" class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 sec-3-left">
+                        <img src="img/sec-3-left.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of sec-3 -->
+        <!-- sec-img -->
+        <section class="sec-img">
+            <div class="container-1">
+                <div class="row">
+                    <!-- // -->
+                    <div class="col-lg-4 sec-img-div d1">
+                        <img src="img/sec-img1.jpg" alt="">
+                        <h3>برگر</h3>
+                    </div>
+                    <!-- // -->
+                    <div class="col-lg-4 sec-img-div d2">
+                        <img src="img/sec-img2.jpg" alt="">
+                        <h3>نوشیدنی</h3>
+                    </div>
+                    <!-- // -->
+                    <div class="col-lg-4 sec-img-div d3">
+                        <img src="img/sec-img3.jpg" alt="">
+                        <h3>پیتزا</h3>
+                    </div>
+                    <!-- // -->
+                </div>
+            </div>
+        </section>
+        <!-- End of sec-img -->
+        <!-- sec-news -->
+        <section class="sec-news">
+            <div class="container-1 ">
+                <h1 class="text-center mt-5">اخرین اخبار</h1>
+                
+                    <div class="row sec-slide" id="sec-slide1">
+                        <div class="col-lg-4 sec-news-div">
+                            <img src="img/sec-news1.jpg" alt="">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                            <button>پیشتر بخوانید</button>
+                        </div>
+                        <div class="col-lg-4 sec-news-div" id="sec-slide3">
+                            <img src="img/sec-news2.jpg" alt="">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                            <button>پیشتر بخوانید</button>
+                        </div>
+                        <div class="col-lg-4 sec-news-div" id="sec-slide3">
+                            <img src="img/sec-news3.jpg" alt="">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                            <button>پیشتر بخوانید</button>
+                        </div>
+                        <div class="col-lg-4 sec-news-div item">
+                            <img src="img/sec-bg.jpg" alt="">
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                            <button>پیشتر بخوانید</button>
+                        </div>
+                    </div>
+                    <div class="btn-slides3">
+                        <i onclick="setSlide2('sec-slide1' , 1)" class="fas fa-circle"></i>
+                        <i onclick="setSlide2('sec-slide2' , 2)" class="fas fa-circle"></i>
+                        <i onclick="setSlide2('sec-slide3' , 3)" class="fas fa-circle"></i>
+                    </div>
+                
+            </div>
+        </section>
+        <!-- End of sec-news -->
+        <!-- fiucher -->
+        <section class="fiucher">
+            <div class="container-2">
+                <div class="row div-row ">
+                    <div class="col-lg-4">
+                        <img src="img/bike-1.png" class="div-row-pic" alt="">
+                    </div>
+                    <div class="col-lg-4 div-row-col2">
+                        <h3>سفارشت رو رایگان تحویل بگیر !</h2>
+                        <p>همین الان با ثبت اولین سفارش بدون سقف خرید میتونید سفارش خود را با پیک رایگان دریافت کنید.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <button class="div-row-btn">تماس با ما</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of fiucher -->
+    </main>
+    <!-- End of main -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-1">
+            <div class="row">
+                <div class="col-lg-3 f-link-div">
+                    <div><img src="img/logo.png" class="f-link-pic"></div>
+                    <div class="f-link">
+                        <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href=""><i class="fab fa-twitter fa-2x"></i></a> 
+                        <a href=""><i class="fab fa-linkedin-in fa-2x"></i></a> 
+                        <a href=""><i class="fab fa-instagram fa-2x"></i></a> 
+                        <a href=""><i class="fab fa-google-plus-g fa-2x"></i></a>    
+                    </div>
+                </div>
+                <div class="col-lg-2 f-links">
+                    <a href="">دسترسی سریع</a>
+                    <a href="">فروشگاه</a>
+                    <a href="">تماس بت ما</a>
+                    <a href="">درباره ما</a>
+                    <a href="">وبلاک</a>
+                    <a href="">دلیوری</a>
+                </div>
+                <div class="col-lg-2 f-links2 ">
+                    <a href="">دسترسی سریع</a>
+                    <a href="">فروشگاه</a>
+                    <a href="">تماس بت ما</a>
+                    <a href="">درباره ما</a>
+                    <a href="">وبلاک</a>
+                    <a href="">دلیوری</a>
+                </div>
+                <div class="col-lg-5 f-links3">
+                    <p>عضویت</p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                    <div class="f-links3-d">
+                        <input type="text">
+                        <button>عضویت</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+
+   <!-- Optional JavaScript -->
+   <script src="bootstrap-code/jquery-3.6.0.min.js"></script>
+   <script src="style/min.js"></script>
+   <script src="bootstrap-code/bootstrap.bundle.min.js"></script>
+   <!-- Optional JavaScript CDN -->
+   <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    
+</body>
+</html>
